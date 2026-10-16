@@ -1,0 +1,65 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial; 
+    font-size: 16px; 
+    color:#000000;
+    background-color: rgb(80, 76, 72)
+}
+
+
+.tagline {
+    font-weight: 700;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.menu-card img {
+    max-width: 100€;
+    margin-bottom: 16px;
+}
+
+
+h1 {font-family:Impact, Haettenschweiler, 'Arial Narrow bold', sans-serif;
+font-size: 60px;
+line-height: 55px;
+color:#541010;
+}
+
+h2 {font-family:Arial, Helvetica, sans-serif;
+font-size: 24px;
+line-height: 24px;
+color:#541010;
+font-weight: bold;
+padding-bottom: 8px;
+padding-top: 36px;
+}
+
+.menu-card {
+    background-color:white;
+    padding: 24px;
+    width: 320px;
+    border-radius: 16px;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+footer {
+    margin-top: 48px;
+}
