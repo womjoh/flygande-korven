@@ -5,12 +5,47 @@
 }
 
 body {
-    font-family: Arial; 
-    font-size: 16px; 
-    color:#000000;
-    background-color: rgb(80, 76, 72)
+    background: #d5d6e0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
+.card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.menu-layout {
+  display: flex;
+  gap: 16px;
+}
+
+.side-menu {
+  flex-basis: 20%;
+  min-width: 0;
+}
+
+.main-menu {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+
+
+
+h1, h2 {
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+}
 
 .tagline {
     font-weight: 700;
@@ -45,7 +80,7 @@ padding-top: 36px;
 .menu-card {
     background-color:white;
     padding: 24px;
-    width: 320px;
+    width: 600px;
     border-radius: 16px;
 }
 
