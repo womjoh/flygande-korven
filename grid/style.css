@@ -14,9 +14,8 @@ a { color: inherit; }
 .card { background: #fff; border-radius: 16px; padding: 24px; }
 .logo img { display: block; width: 100%; max-width: 190px; height: auto; }
 
-hehehehjsjsjs
 .menu-wrapper {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 16px;
 }
@@ -73,3 +72,55 @@ hehehehjsjsjs
 
 /* Samma gruppering av kontaktuppgifterna som i den tidigare footern. */
 .contact-content { display: flex; flex-direction: column; gap: 16px; }
+
+
+.layout {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  gap: 16px;
+}
+
+header,
+footer {
+  grid-column: 1 / -1;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.featured {
+background: yellow;
+grid-column: span 2;
+grid-row: span 2;
+}
+
+.dish-card {
+display: flex; 
+flex-direction: column;
+gap: 16px;
+}
+
+.dish-copy {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px
+}
+
+.dish-card img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+
+@media (max-width:500px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
